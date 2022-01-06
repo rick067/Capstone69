@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custom_black_button.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custom_white_button1.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custome_white_button.xml" value="0.37395833333333334" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
       </map>
