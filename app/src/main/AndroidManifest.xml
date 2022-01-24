@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone">
         <activity
+            android:name=".Timer12"
+            android:exported="false" />
+        <activity
+            android:name=".Timer11"
+            android:exported="false" />
+        <activity
+            android:name=".Timer10"
+            android:exported="false" />
+        <activity
+            android:name=".Timer9"
+            android:exported="false" />
+        <activity
+            android:name=".Timer8"
+            android:exported="false" />
+        <activity
+            android:name=".Timer7"
+            android:exported="false" />
+        <activity
+            android:name=".Timer6"
+            android:exported="false" />
+        <activity
+            android:name=".Timer5"
+            android:exported="false" />
+        <activity
+            android:name=".Timer4"
+            android:exported="false" />
+        <activity
+            android:name=".Timer3"
+            android:exported="false" />
+        <activity
+            android:name=".Timer2"
+            android:exported="false" />
+        <activity
             android:name=".Timer1"
             android:exported="false" />
         <activity
