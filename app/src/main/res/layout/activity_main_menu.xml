@@ -130,7 +130,7 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Types of Warm-Up Exercise"
+        android:text="Featured Warm-up Exercises"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintEnd_toEndOf="parent"
