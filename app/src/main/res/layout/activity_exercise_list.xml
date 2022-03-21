@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseList">
+
+    <ImageButton
+        android:id="@+id/planksIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/planks" />
+
+    <ImageButton
+        android:id="@+id/pushupIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/push_ups" />
+
+    <ImageButton
+        android:id="@+id/tricepsIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/triceps_warm_up" />
+
+    <ImageButton
+        android:id="@+id/squatIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/squat" />
+
+    <ImageButton
+        android:id="@+id/sidereachIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/side_reach" />
+
+    <ImageButton
+        android:id="@+id/sidelungesIcon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/side_lunges" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
