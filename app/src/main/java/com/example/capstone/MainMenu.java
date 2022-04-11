@@ -8,20 +8,27 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
-    private Button button;
+    Button mybutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        button = (Button) findViewById(R.id.button6);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openExerciseList();
-            }
+        mybutton = findViewById(R.id.arm_reach_button);
+        mybutton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainMenu.this, ExerciseList.class);
+            startActivity(intent);
         });
+        mybutton = findViewById(R.id.quiz_button);
+        mybutton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainMenu.this, ExerciseQuiz.class);
+            startActivity(intent);
+        });
+
+
+
+
 
 
 
@@ -37,8 +44,5 @@ public class MainMenu extends AppCompatActivity {
         );
     }
 
-    private void openExerciseList() {
-        Intent intent = new Intent( this, ExerciseList.class);
-        startActivity(intent);
+
     }
-}
