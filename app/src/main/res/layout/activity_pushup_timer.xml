@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pushup_Timer">
+
+    <TextView
+        android:id="@+id/PushupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="82dp"
+        android:text="Push-Up"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="wrap_content"
+        android:layout_height="376dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PushupTitle" />
+
+    <TextView
+        android:id="@+id/armStretchDescription"
+        android:layout_width="336dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="5dp"
+        android:text="A conditioning exercise performed in a prone position by raising and lowering the body with the straightening and bending of the arms while keeping the back straight and supporting the body on the hands and toes."
+        android:textAlignment="center"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toTopOf="@+id/countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="159dp"
+        android:text="pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countdown_text" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="160dp"
+        android:text="Reset"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="147dp"
+        android:text="timerNumber"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armStretchDescription"
+        tools:text="00:00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

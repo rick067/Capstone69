@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appcompat.Light.NoActionBar.FullScreen">
         <activity
+            android:name=".SideLunges_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".KneesLift_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".HipRotation_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".SideReach_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".ArmCircle_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".ArmReach_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".JumpingJacks_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Jogging_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Planks_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Squats_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Triceps_Timer"
+            android:exported="false" />
+        <activity
+            android:name=".Pushup_Timer"
+            android:exported="false" />
+        <activity
             android:name=".ExerciseQuiz"
             android:exported="false" />
         <activity
@@ -68,18 +104,14 @@
         </activity>
         <activity
             android:name=".StartGame"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".GameOver"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
-
 
 </manifest>

@@ -45,7 +45,7 @@ public class MainMenu extends AppCompatActivity {
         });
         mybutton = findViewById(R.id.button6);
         mybutton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainMenu.this, ExerciseList.class);
+            Intent intent = new Intent(MainMenu.this, Pushup_Timer.class);
             startActivity(intent);
 
 
