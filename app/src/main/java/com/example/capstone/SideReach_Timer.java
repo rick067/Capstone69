@@ -30,7 +30,8 @@ public class SideReach_Timer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_side_reach_timer);
-        mTextViewCountDown = findViewById(R.id.countdown_text);
+
+        img = findViewById(R.id.imageView);
 
         img.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -41,6 +42,7 @@ public class SideReach_Timer extends AppCompatActivity {
             }
         });
 
+        mTextViewCountDown = findViewById(R.id.countdown_text);
         mButtonStartPause = findViewById(R.id.startButton);
         mButtonReset = findViewById(R.id.resetButton);
         startTimer();
