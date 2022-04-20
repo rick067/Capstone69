@@ -28,7 +28,6 @@
         android:textColor="@color/white"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/header" />
 
@@ -44,7 +43,6 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/header"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.629"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainMenu_title" />
 
@@ -194,7 +192,6 @@
         android:layout_marginTop="4dp"
         android:backgroundTint="#7BD87B"
         app:layout_constraintEnd_toStartOf="@+id/MainMenu_title"
-        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/settings_icon1"
