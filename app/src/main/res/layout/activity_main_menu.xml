@@ -190,7 +190,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
-        android:backgroundTint="#7BD87B"
+        android:backgroundTint="#57BC76"
         app:layout_constraintEnd_toStartOf="@+id/MainMenu_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
