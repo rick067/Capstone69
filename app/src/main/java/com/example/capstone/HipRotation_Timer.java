@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.VideoView;
+import android.widget.MediaController;
 
 import java.util.Locale;
 
@@ -30,6 +32,15 @@ public class HipRotation_Timer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hip_rotation_timer);
+
+        VideoView videoView =findViewById(R.id.videoView4);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+        videoView.start();
+        mediaController.setVisibility(View.INVISIBLE);
+        videoView.setMediaController(mediaController);
 
         img = findViewById(R.id.imageView);
 
@@ -97,6 +108,15 @@ public class HipRotation_Timer extends AppCompatActivity {
         mButtonReset.setVisibility(View.INVISIBLE);
         mButtonStartPause.setText("Pause");
         mButtonStartPause.setVisibility(View.VISIBLE);
+
+        VideoView videoView =findViewById(R.id.videoView4);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+        videoView.start();
+        mediaController.setVisibility(View.INVISIBLE);
+        videoView.setMediaController(mediaController);
 
         mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
             @Override

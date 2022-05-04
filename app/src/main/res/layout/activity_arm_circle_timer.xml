@@ -25,7 +25,7 @@
 
     <VideoView
         android:id="@+id/videoView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="376dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

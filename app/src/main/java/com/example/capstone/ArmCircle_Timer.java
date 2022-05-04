@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.VideoView;
+import android.widget.MediaController;
 
 import java.util.Locale;
 
@@ -25,11 +27,21 @@ public class ArmCircle_Timer extends AppCompatActivity {
     private CountDownTimer mCountDownTimer;
     private boolean mTimerRunning;
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
+    VideoView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arm_circle_timer);
+
+        VideoView videoView =findViewById(R.id.videoView2);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+        videoView.start();
+        mediaController.setVisibility(View.INVISIBLE);
+        videoView.setMediaController(mediaController);
 
         img = findViewById(R.id.imageView);
 
@@ -98,6 +110,15 @@ public class ArmCircle_Timer extends AppCompatActivity {
         mButtonReset.setVisibility(View.INVISIBLE);
         mButtonStartPause.setText("Pause");
         mButtonStartPause.setVisibility(View.VISIBLE);
+
+        VideoView videoView =findViewById(R.id.videoView2);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+        videoView.start();
+        mediaController.setVisibility(View.INVISIBLE);
+        videoView.setMediaController(mediaController);
 
         mCountDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
             @Override
