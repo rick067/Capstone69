@@ -16,6 +16,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.VideoView;
+import android.widget.MediaController;
 
 public class MainMenu extends AppCompatActivity {
     Button mybutton;
@@ -28,6 +30,15 @@ public class MainMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+
+        VideoView videoView =findViewById(R.id.videoView1);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+        videoView.start();
+        mediaController.setVisibility(View.INVISIBLE);
+        videoView.setMediaController(mediaController);
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel ("My Notification", "My Notification", IMPORTANCE_DEFAULT);
