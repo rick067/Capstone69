@@ -43,6 +43,13 @@ public class ArmReach_Timer extends AppCompatActivity {
         mediaController.setVisibility(View.INVISIBLE);
         videoView.setMediaController(mediaController);
 
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                mp.setLooping(true);
+            }
+        });
+
         img = findViewById(R.id.imageView);
 
         img.setOnTouchListener(new View.OnTouchListener() {
@@ -140,6 +147,11 @@ public class ArmReach_Timer extends AppCompatActivity {
         String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
         mTextViewCountDown.setText(timeLeftFormatted);
     }
+    @Override
+    public void onBackPressed() {
+        mCountDownTimer.cancel();
+        mCountDownTimer = null;
 
+    }
 
 }

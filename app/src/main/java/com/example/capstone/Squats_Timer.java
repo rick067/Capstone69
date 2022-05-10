@@ -42,6 +42,13 @@ public class Squats_Timer extends AppCompatActivity {
         mediaController.setVisibility(View.INVISIBLE);
         videoView.setMediaController(mediaController);
 
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                mp.setLooping(true);
+            }
+        });
+
         img = findViewById(R.id.imageView);
 
         img.setOnTouchListener(new View.OnTouchListener() {
@@ -140,5 +147,10 @@ public class Squats_Timer extends AppCompatActivity {
         mTextViewCountDown.setText(timeLeftFormatted);
     }
 
+    @Override
+    public void onBackPressed() {
+        mCountDownTimer.cancel();
+        mCountDownTimer = null;
 
+    }
 }

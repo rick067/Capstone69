@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.support.v4.app.INotificationSideChannel;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -28,11 +30,14 @@ public class ArmCircle_Timer extends AppCompatActivity {
     private boolean mTimerRunning;
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
     VideoView videoView;
+    private INotificationSideChannel.Default someCountDownTimer;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arm_circle_timer);
+
 
         VideoView videoView =findViewById(R.id.videoView2);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideo);
@@ -42,6 +47,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
         videoView.start();
         mediaController.setVisibility(View.INVISIBLE);
         videoView.setMediaController(mediaController);
+
 
         img = findViewById(R.id.imageView);
 
@@ -135,11 +141,20 @@ public class ArmCircle_Timer extends AppCompatActivity {
         mButtonStartPause.setText("Pause");
         mButtonReset.setVisibility(View.INVISIBLE);
     }
+
+
     private void updateCountDownText(){
         int minutes = (int) (mTimeLeftInMillis / 1000) / 60;
         int seconds = (int) (mTimeLeftInMillis / 1000) % 60;
         String timeLeftFormatted = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds);
         mTextViewCountDown.setText(timeLeftFormatted);
+    }
+
+    @Override
+    public void onBackPressed() {
+        mCountDownTimer.cancel();
+        mCountDownTimer = null;
+
     }
 
     }
