@@ -3,6 +3,7 @@ package com.example.capstone;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -32,6 +33,8 @@ public class Squats_Timer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_squats_timer);
+
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         VideoView videoView =findViewById(R.id.videoView12);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);

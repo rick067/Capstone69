@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appcompat.Light.NoActionBar.FullScreen">
         <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
             android:name=".SideLunges_Timer"
             android:exported="false" />
         <activity

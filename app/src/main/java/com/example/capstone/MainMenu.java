@@ -6,31 +6,38 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.VideoView;
 import android.widget.MediaController;
 
 public class MainMenu extends AppCompatActivity {
     Button mybutton;
+    ImageButton myImageButton;
 
 
 
 
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         VideoView videoView =findViewById(R.id.videoView1);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
@@ -58,7 +65,15 @@ public class MainMenu extends AppCompatActivity {
         mybutton.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, ExerciseList.class);
             startActivity(intent);
+
         });
+
+        myImageButton = findViewById(R.id.imageButton2);
+        myImageButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainMenu.this, Settings.class);
+            startActivity(intent);
+        });
+
         mybutton = findViewById(R.id.quiz_button);
         mybutton.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, ExerciseQuiz.class);
@@ -68,6 +83,8 @@ public class MainMenu extends AppCompatActivity {
         mybutton.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, Pushup_Timer.class);
             startActivity(intent);
+
+
 
 
         //notification code
