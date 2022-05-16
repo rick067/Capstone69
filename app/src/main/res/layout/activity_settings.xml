@@ -59,19 +59,20 @@
 
     <EditText
         android:id="@+id/text_input"
-        android:layout_width="78dp"
-        android:layout_height="38dp"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="140dp"
         android:hint="seconds"
         android:inputType="number"
         android:maxLength="4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/secsbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/text_input"
