@@ -7,6 +7,7 @@ import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.support.v4.app.INotificationSideChannel;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -20,14 +21,18 @@ import java.util.Locale;
 public class ArmReach_Timer extends AppCompatActivity {
 
     ImageView img;
+    //get timer data
+    DBHelper DB = new DBHelper(this);
 
-    private static final  long START_TIME_IN_MILLIS = 10000;
+    private static long START_TIME_IN_MILLIS;
     private TextView mTextViewCountDown;
     private Button mButtonStartPause;
     private Button mButtonReset;
     private CountDownTimer mCountDownTimer;
     private boolean mTimerRunning;
-    private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
+    private long mTimeLeftInMillis;
+    VideoView videoView;
+    private INotificationSideChannel.Default someCountDownTimer;
 
 
     @Override
@@ -36,6 +41,11 @@ public class ArmReach_Timer extends AppCompatActivity {
         setContentView(R.layout.activity_arm_reach_timer);
 
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        //get timer data
+        int data = DB.getTimerData();
+        START_TIME_IN_MILLIS = data*1000;
+        mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
         VideoView videoView =findViewById(R.id.videoView3);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armreachvideo);
@@ -114,7 +124,11 @@ public class ArmReach_Timer extends AppCompatActivity {
         mButtonReset.setVisibility(View.VISIBLE );
     }
     private void resetTimer(){
+        //get timer data
+        int data = DB.getTimerData();
+        START_TIME_IN_MILLIS = data*1000;
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
+
         updateCountDownText();
         mButtonReset.setVisibility(View.INVISIBLE);
         mButtonStartPause.setText("Pause");

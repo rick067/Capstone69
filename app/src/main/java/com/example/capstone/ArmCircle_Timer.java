@@ -59,6 +59,13 @@ public class ArmCircle_Timer extends AppCompatActivity {
         mediaController.setVisibility(View.INVISIBLE);
         videoView.setMediaController(mediaController);
 
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                mp.setLooping(true);
+            }
+        });
+
 
         img = findViewById(R.id.imageView);
 
