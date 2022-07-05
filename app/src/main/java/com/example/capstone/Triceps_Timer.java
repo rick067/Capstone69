@@ -49,7 +49,7 @@ public class Triceps_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView13);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.tricepswarmupvidlow);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

@@ -51,9 +51,9 @@ public class ExerciseList extends AppCompatActivity {
             Intent intent = new Intent(ExerciseList.this, SideLunges_Timer.class);
             startActivity(intent);
         });
-        myImageButton = findViewById(R.id.KneesLiftIcon);
+        myImageButton = findViewById(R.id.ArmReachIcon);
         myImageButton.setOnClickListener(v -> {
-            Intent intent = new Intent(ExerciseList.this, KneesLift_Timer.class);
+            Intent intent = new Intent(ExerciseList.this, ArmReach_Timer.class);
             startActivity(intent);
         });
         myImageButton = findViewById(R.id.JumpingJacksIcon);

@@ -47,7 +47,7 @@ public class KneesLift_Timer extends AppCompatActivity {
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
         VideoView videoView =findViewById(R.id.videoView7);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.jumpingjacksvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.kneesliftmergevideo1);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

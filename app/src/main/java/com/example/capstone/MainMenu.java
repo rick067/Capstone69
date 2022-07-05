@@ -40,7 +40,7 @@ public class MainMenu extends AppCompatActivity {
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         VideoView videoView =findViewById(R.id.videoView1);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.mainmenuvideolow);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
