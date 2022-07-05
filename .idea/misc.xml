@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custom_red_button.xml" value="0.37395833333333334" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custom_white_button1.xml" value="0.37395833333333334" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/custome_white_button.xml" value="0.37395833333333334" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/ic_applauncher_background.xml" value="0.183" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/drawable/ic_settings_background.xml" value="0.3555" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/activity_arm_circle_timer.xml" value="0.33" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/activity_arm_reach_timer.xml" value="0.27219202898550726" />
@@ -41,6 +42,10 @@
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/game_over.xml" value="0.3541666666666667" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/list_item.xml" value="0.33" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/layout/start_game.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_applauncher.xml" value="0.183" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_applauncher_round.xml" value="0.183" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.183" />
+        <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.183" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_settings.xml" value="0.3555" />
         <entry key="..\:/Users/Rick/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_settings_round.xml" value="0.183" />
       </map>
