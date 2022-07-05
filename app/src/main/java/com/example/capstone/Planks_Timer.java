@@ -2,6 +2,7 @@ package com.example.capstone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
@@ -11,6 +12,7 @@ import android.support.v4.app.INotificationSideChannel;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
@@ -20,6 +22,7 @@ import java.util.Locale;
 
 public class Planks_Timer extends AppCompatActivity {
     ImageView img;
+    ImageButton myImageHomeButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -33,6 +36,7 @@ public class Planks_Timer extends AppCompatActivity {
     VideoView videoView;
     private INotificationSideChannel.Default someCountDownTimer;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +65,13 @@ public class Planks_Timer extends AppCompatActivity {
                 mp.setLooping(true);
             }
         });
+
+        myImageHomeButton = findViewById(R.id.imageHomeButton7);
+        myImageHomeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(Planks_Timer.this, MainMenu.class);
+            startActivity(intent);
+        });
+
 
         img = findViewById(R.id.imageView);
 

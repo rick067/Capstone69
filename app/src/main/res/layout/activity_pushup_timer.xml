@@ -22,6 +22,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageHomeButton8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/PushupTitle"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbuttonicon1"
+        tools:ignore="MissingConstraints" />
+
     <VideoView
         android:id="@+id/videoView9"
         android:layout_width="wrap_content"
@@ -33,9 +48,9 @@
     <TextView
         android:id="@+id/armStretchDescription"
         android:layout_width="336dp"
-        android:layout_height="70dp"
+        android:layout_height="83dp"
         android:layout_marginStart="38dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="5dp"
         android:text="A conditioning exercise performed in a prone position by raising and lowering the body with the straightening and bending of the arms while keeping the back straight and supporting the body on the hands and toes."

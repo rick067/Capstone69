@@ -2,6 +2,7 @@ package com.example.capstone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
@@ -11,6 +12,7 @@ import android.support.v4.app.INotificationSideChannel;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
@@ -21,6 +23,7 @@ import java.util.Locale;
 public class Triceps_Timer extends AppCompatActivity {
 
     ImageView img;
+    ImageButton myImageHomeButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -35,6 +38,7 @@ public class Triceps_Timer extends AppCompatActivity {
     VideoView videoView;
     private INotificationSideChannel.Default someCountDownTimer;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +66,12 @@ public class Triceps_Timer extends AppCompatActivity {
             public void onPrepared(MediaPlayer mp) {
                 mp.setLooping(true);
             }
+        });
+
+        myImageHomeButton = findViewById(R.id.imageHomeButton12);
+        myImageHomeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(Triceps_Timer.this, MainMenu.class);
+            startActivity(intent);
         });
 
         mTextViewCountDown = findViewById(R.id.countdown_text);
@@ -136,7 +146,7 @@ public class Triceps_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView13);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.tricepswarmupvidlow);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
