@@ -94,8 +94,10 @@ public class SideReach_Timer extends AppCompatActivity {
             public void onClick(View v) {
                 if (mTimerRunning) {
                     pauseTimer();
+                    videoView.pause();
                 } else {
                     startTimer();
+                    videoView.start();
                 }
 
             }
