@@ -2,12 +2,14 @@ package com.example.capstone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class Settings extends AppCompatActivity {
@@ -15,11 +17,20 @@ public class Settings extends AppCompatActivity {
     EditText editseconds;
     Button buttonsecs;
     DBHelper DB;
+    ImageButton myImageHomeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+
+        myImageHomeButton = findViewById(R.id.imageHomeButton13);
+        myImageHomeButton.setOnClickListener(v -> {
+            Intent intent= new Intent(Settings.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
 
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
