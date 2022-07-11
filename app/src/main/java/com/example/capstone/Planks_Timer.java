@@ -68,8 +68,12 @@ public class Planks_Timer extends AppCompatActivity {
 
         myImageHomeButton = findViewById(R.id.imageHomeButton7);
         myImageHomeButton.setOnClickListener(v -> {
-            Intent intent = new Intent(Planks_Timer.this, MainMenu.class);
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(Planks_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
+            finish();
         });
 
 

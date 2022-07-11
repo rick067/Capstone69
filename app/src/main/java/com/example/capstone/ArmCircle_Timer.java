@@ -84,8 +84,12 @@ public class ArmCircle_Timer extends AppCompatActivity {
 
         myImageHomeButton = findViewById(R.id.imageHomeButton1);
         myImageHomeButton.setOnClickListener(v -> {
-            Intent intent = new Intent(ArmCircle_Timer.this, MainMenu.class);
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(ArmCircle_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
+            finish();
         });
 
 

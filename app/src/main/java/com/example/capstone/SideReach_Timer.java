@@ -67,8 +67,12 @@ public class SideReach_Timer extends AppCompatActivity {
 
         myImageHomeButton = findViewById(R.id.imageHomeButton10);
         myImageHomeButton.setOnClickListener(v -> {
-            Intent intent = new Intent(SideReach_Timer.this, MainMenu.class);
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(SideReach_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
+            finish();
         });
 
         img = findViewById(R.id.imageView);

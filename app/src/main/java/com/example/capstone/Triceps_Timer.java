@@ -70,8 +70,12 @@ public class Triceps_Timer extends AppCompatActivity {
 
         myImageHomeButton = findViewById(R.id.imageHomeButton12);
         myImageHomeButton.setOnClickListener(v -> {
-            Intent intent = new Intent(Triceps_Timer.this, MainMenu.class);
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(Triceps_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
+            finish();
         });
 
         mTextViewCountDown = findViewById(R.id.countdown_text);
