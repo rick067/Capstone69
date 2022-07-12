@@ -71,6 +71,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
         });
 
 
+
         img = findViewById(R.id.imageView);
 
         img.setOnTouchListener(new View.OnTouchListener() {
@@ -82,6 +83,8 @@ public class ArmCircle_Timer extends AppCompatActivity {
             }
         });
 
+
+
         myImageHomeButton = findViewById(R.id.imageHomeButton1);
         myImageHomeButton.setOnClickListener(v -> {
             mCountDownTimer.cancel();
@@ -91,6 +94,16 @@ public class ArmCircle_Timer extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
+        //FULL Screen Display
+        this.getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        |  View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                        |  View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        |  View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        |  View.SYSTEM_UI_FLAG_FULLSCREEN
+                        |  View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+        );
 
 
 
@@ -198,5 +211,6 @@ public class ArmCircle_Timer extends AppCompatActivity {
         mCountDownTimer = null;
 
     }
+
 
 }
