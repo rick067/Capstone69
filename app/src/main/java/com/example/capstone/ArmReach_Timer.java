@@ -142,7 +142,7 @@ public class ArmReach_Timer extends AppCompatActivity {
         }.start();
         mTimerRunning = true;
         mButtonStartPause.setText("Pause");
-        mButtonReset.setVisibility(View.INVISIBLE);
+        mButtonReset.setVisibility(View.VISIBLE);
     }
     private void pauseTimer(){
         mCountDownTimer.cancel();
@@ -183,7 +183,7 @@ public class ArmReach_Timer extends AppCompatActivity {
         }.start();
         mTimerRunning = true;
         mButtonStartPause.setText("Pause");
-        mButtonReset.setVisibility(View.INVISIBLE);
+        mButtonReset.setVisibility(View.VISIBLE);
     }
     private void updateCountDownText(){
         int minutes = (int) (mTimeLeftInMillis / 1000) / 60;

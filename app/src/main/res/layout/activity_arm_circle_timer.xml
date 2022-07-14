@@ -26,7 +26,7 @@
     <VideoView
         android:id="@+id/videoView2"
         android:layout_width="match_parent"
-        android:layout_height="376dp"
+        android:layout_height="460dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ArmCircleTitle" />
@@ -50,48 +50,43 @@
         android:id="@+id/armStretchDescription"
         android:layout_width="336dp"
         android:layout_height="70dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginBottom="5dp"
         android:text="It is a non-weighted exercise targeting the shoulders. It involves extending your arms to the sides and drawing small circles in the air with your hands."
         android:textAlignment="center"
         android:textColor="#070707"
-        app:layout_constraintBottom_toTopOf="@+id/countdown_text"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/videoView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
 
     <Button
         android:id="@+id/startButton"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="159dp"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
         android:background="#119e3c"
         android:text="pause"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/countdown_text" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/resetButton"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="160dp"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
         android:background="#119e3c"
         android:text="Reset"
         android:textColor="@color/white"
-        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toEndOf="@+id/startButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -99,28 +94,29 @@
         android:layout_height="56dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="90dp"
         android:src="@drawable/speakericon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/countdown_text"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/armStretchDescription"
-        app:layout_constraintVertical_bias="0.015" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
 
     <TextView
         android:id="@+id/countdown_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
         android:layout_marginStart="147dp"
-        android:layout_marginTop="4dp"
         android:layout_marginEnd="147dp"
         android:text="timerNumber"
         android:textColor="@color/black"
-        android:textSize="60sp"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/armStretchDescription"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="00:00" />
 
 
