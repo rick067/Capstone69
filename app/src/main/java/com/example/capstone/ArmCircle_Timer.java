@@ -55,7 +55,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView2);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -173,7 +173,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView2);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.armcirclesvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

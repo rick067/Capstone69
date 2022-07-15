@@ -52,7 +52,7 @@ public class SideLunges_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView10);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.sidelungesvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.sidelungesvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -161,7 +161,7 @@ public class SideLunges_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView10);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.sidelungesvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.sidelungesvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

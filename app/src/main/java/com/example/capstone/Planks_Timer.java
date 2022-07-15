@@ -51,7 +51,7 @@ public class Planks_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView8);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.planksvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.planksvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -161,7 +161,7 @@ public class Planks_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView8);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.planksvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.planksvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

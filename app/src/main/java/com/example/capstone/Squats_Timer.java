@@ -54,7 +54,7 @@ public class Squats_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView12);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -164,7 +164,7 @@ public class Squats_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView12);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.squatsvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

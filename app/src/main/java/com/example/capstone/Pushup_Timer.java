@@ -53,7 +53,7 @@ public class Pushup_Timer extends AppCompatActivity {
 
 
         VideoView videoView =findViewById(R.id.videoView9);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.pushupvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.pushupvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -163,7 +163,7 @@ public class Pushup_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView9);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.pushupvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.pushupvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);

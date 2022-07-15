@@ -51,7 +51,7 @@ public class Jogging_Timer extends AppCompatActivity {
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
         VideoView videoView =findViewById(R.id.videoView5);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.joggingvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.joggingvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -161,7 +161,7 @@ public class Jogging_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView5);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.joggingvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.joggingvideotest);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
