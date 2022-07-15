@@ -51,7 +51,7 @@ public class HipRotation_Timer extends AppCompatActivity {
         mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
         VideoView videoView =findViewById(R.id.videoView4);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideotest1);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
@@ -161,7 +161,7 @@ public class HipRotation_Timer extends AppCompatActivity {
         mButtonStartPause.setVisibility(View.VISIBLE);
 
         VideoView videoView =findViewById(R.id.videoView4);
-        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideo);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.hiprotationvideotest1);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
