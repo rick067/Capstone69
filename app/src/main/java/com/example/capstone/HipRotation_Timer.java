@@ -136,7 +136,7 @@ public class HipRotation_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),KneesLift_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestHipRotation.class));
             }
         }.start();
         mTimerRunning = true;
@@ -177,7 +177,7 @@ public class HipRotation_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),KneesLift_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestHipRotation.class));
             }
         }.start();
         mTimerRunning = true;

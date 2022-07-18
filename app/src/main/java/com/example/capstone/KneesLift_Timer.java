@@ -136,7 +136,7 @@ public class KneesLift_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),SideLunges_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestKneesLift.class));
             }
         }.start();
         mTimerRunning = true;
@@ -177,7 +177,7 @@ public class KneesLift_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),SideLunges_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestKneesLift.class));
             }
         }.start();
         mTimerRunning = true;

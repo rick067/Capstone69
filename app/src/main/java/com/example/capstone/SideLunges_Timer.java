@@ -136,7 +136,7 @@ public class SideLunges_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),MainMenu.class));
+                startActivity(new Intent(getApplicationContext(),RestSideLunges.class));
             }
         }.start();
         mTimerRunning = true;
@@ -177,7 +177,7 @@ public class SideLunges_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),MainMenu.class));
+                startActivity(new Intent(getApplicationContext(),RestSideLunges.class));
             }
         }.start();
         mTimerRunning = true;

@@ -139,7 +139,7 @@ public class Squats_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Planks_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestSquats.class));
             }
         }.start();
         mTimerRunning = true;
@@ -180,7 +180,7 @@ public class Squats_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Planks_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestSquats.class));
             }
         }.start();
         mTimerRunning = true;

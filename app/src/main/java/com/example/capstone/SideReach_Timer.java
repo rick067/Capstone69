@@ -134,7 +134,7 @@ public class SideReach_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),HipRotation_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestSideReach.class));
             }
         }.start();
         mTimerRunning = true;
@@ -175,7 +175,7 @@ public class SideReach_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),HipRotation_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestSideReach.class));
             }
         }.start();
         mTimerRunning = true;

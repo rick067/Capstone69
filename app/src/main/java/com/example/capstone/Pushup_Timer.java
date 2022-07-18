@@ -138,7 +138,7 @@ public class Pushup_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Triceps_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestPushup.class));
             }
         }.start();
         mTimerRunning = true;
@@ -179,7 +179,7 @@ public class Pushup_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Triceps_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestPushup.class));
             }
         }.start();
         mTimerRunning = true;

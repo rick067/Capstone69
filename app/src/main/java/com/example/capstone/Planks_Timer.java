@@ -136,7 +136,7 @@ public class Planks_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Jogging_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestPlanks.class));
             }
         }.start();
         mTimerRunning = true;
@@ -177,7 +177,7 @@ public class Planks_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Jogging_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestPlanks.class));
             }
         }.start();
         mTimerRunning = true;

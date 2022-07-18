@@ -148,7 +148,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),SideReach_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestArmCircle.class));
             }
         }.start();
         mTimerRunning = true;
@@ -189,7 +189,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),SideReach_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestArmCircle.class));
             }
         }.start();
         mTimerRunning = true;

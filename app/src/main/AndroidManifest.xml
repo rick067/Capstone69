@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appcompat.Light.NoActionBar.FullScreen">
         <activity
+            android:name=".RestTriceps"
+            android:exported="false" />
+        <activity
+            android:name=".RestSquats"
+            android:exported="false" />
+        <activity
+            android:name=".RestSideReach"
+            android:exported="false" />
+        <activity
+            android:name=".RestSideLunges"
+            android:exported="false" />
+        <activity
+            android:name=".RestPushup"
+            android:exported="false" />
+        <activity
+            android:name=".RestPlanks"
+            android:exported="false" />
+        <activity
+            android:name=".RestKneesLift"
+            android:exported="false" />
+        <activity
+            android:name=".RestJumpingJacks"
+            android:exported="false" />
+        <activity
+            android:name=".RestJogging"
+            android:exported="false" />
+        <activity
+            android:name=".RestHipRotation"
+            android:exported="false" />
+        <activity
+            android:name=".RestArmReach"
+            android:exported="false" />
+        <activity
+            android:name=".RestArmCircle"
+            android:exported="false" />
+        <activity
             android:name=".Intro"
             android:exported="false" />
         <activity

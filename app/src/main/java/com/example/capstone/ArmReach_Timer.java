@@ -137,7 +137,7 @@ public class ArmReach_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),ArmCircle_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestArmReach.class));
             }
         }.start();
         mTimerRunning = true;
@@ -178,7 +178,7 @@ public class ArmReach_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),ArmCircle_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestArmReach.class));
             }
         }.start();
         mTimerRunning = true;

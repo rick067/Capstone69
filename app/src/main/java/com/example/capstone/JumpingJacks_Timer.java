@@ -136,7 +136,7 @@ public class JumpingJacks_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),ArmReach_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestJumpingJacks.class));
             }
         }.start();
         mTimerRunning = true;
@@ -177,7 +177,7 @@ public class JumpingJacks_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),ArmReach_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestJumpingJacks.class));
             }
         }.start();
         mTimerRunning = true;

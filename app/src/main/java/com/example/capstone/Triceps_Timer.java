@@ -137,7 +137,7 @@ public class Triceps_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Squats_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestTriceps.class));
             }
         }.start();
         mTimerRunning = true;
@@ -185,7 +185,7 @@ public class Triceps_Timer extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
-                startActivity(new Intent(getApplicationContext(),Squats_Timer.class));
+                startActivity(new Intent(getApplicationContext(),RestTriceps.class));
             }
         }.start();
         mTimerRunning = true;
