@@ -2,15 +2,15 @@
     <string name="app_name">Warm-Up Exercises</string>
 
     //Headings
-    <string name="heading_one">Quick &amp; Easy Payments</string>
-    <string name="heading_two">Instant Notifications</string>
-    <string name="heading_three">Cashless Payment</string>
-    <string name="heading_fourth">Pay Anywhere</string>
+    <string name="heading_one">3D Warm-up Exercises Demonstration</string>
+    <string name="heading_two">Learn Proper Warm-up Exercises</string>
+    <string name="heading_three">Importance Of Warm-up Exercises</string>
+    <string name="heading_fourth">Warm-up Quiz</string>
 
     //Description
-    <string name="desc_one">Grow your Business By Accepting Card Payments with The New Card Reader</string>
-    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
-    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
-    <string name="desc_fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_one">Learn Warm-up Exercises by watching the 3D model demonstration.</string>
+    <string name="desc_two">To avoid risks that may cause an injury.</string>
+    <string name="desc_three">Know the importance of Warm-up Exercises to your body as an individual.</string>
+    <string name="desc_fourth">Take a quiz to test your knowledge of the Warm-up Exercises.</string>
 
 </resources>
