@@ -46,19 +46,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/JoggingTitle" />
 
-    <TextView
-        android:id="@+id/armStretchDescription"
-        android:layout_width="336dp"
-        android:layout_height="70dp"
-        android:text="Jogging leg lifts can help get your heart rate up and your blood flowing throughout your body."
-        android:textAlignment="center"
-        android:textColor="#070707"
+    <Button
+        android:id="@+id/infobutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:background="#119e3c"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DESCRIPTION"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.625"
+        tools:ignore="MissingConstraints" />
+
 
     <Button
         android:id="@+id/startButton"
@@ -72,8 +79,7 @@
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
-
+        app:layout_constraintVertical_bias="0.934" />
 
     <Button
         android:id="@+id/resetButton"
@@ -84,10 +90,10 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintVertical_bias="0.934" />
 
     <ImageView
         android:id="@+id/imageView"

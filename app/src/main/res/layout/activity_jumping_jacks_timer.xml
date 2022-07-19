@@ -45,20 +45,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/JumpingJacksTitle" />
 
-    <TextView
-        android:id="@+id/armStretchDescription"
-        android:layout_width="336dp"
-        android:layout_height="70dp"
-        android:text="A physical exercise in which you stand with your feet together and arms down, jump up and spread your arms and legs far apart and land, then jump and bring your feet together and arms down again."
-        android:textAlignment="center"
-        android:textColor="#070707"
+
+    <Button
+        android:id="@+id/infobutton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:background="#119e3c"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DESCRIPTION"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
-
+        app:layout_constraintVertical_bias="0.641"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/startButton"

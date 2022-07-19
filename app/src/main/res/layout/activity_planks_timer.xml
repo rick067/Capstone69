@@ -45,19 +45,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PlanksTitle" />
 
-    <TextView
-        android:id="@+id/armStretchDescription"
-        android:layout_width="336dp"
-        android:layout_height="70dp"
-        android:text="Planks are a great way to warm up your core and back while also improving your balance and posture. Get into a pushup position, Keep your palms and toes planted firmly on the ground and hold your plank."
-        android:textAlignment="center"
-        android:textColor="#070707"
+    <Button
+        android:id="@+id/infobutton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:background="#119e3c"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DESCRIPTION"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.625"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/startButton"
@@ -68,10 +74,10 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <Button
         android:id="@+id/resetButton"
@@ -85,7 +91,7 @@
         app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -98,7 +104,7 @@
         app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.853" />
 
     <TextView
         android:id="@+id/countdown_text"
@@ -112,7 +118,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872"
+        app:layout_constraintVertical_bias="0.855"
         tools:text="00:00" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

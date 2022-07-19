@@ -25,6 +25,7 @@ public class ArmCircle_Timer extends AppCompatActivity {
 
     ImageView img;
     ImageButton myImageHomeButton;
+    Button myInfoButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -90,6 +91,16 @@ public class ArmCircle_Timer extends AppCompatActivity {
             mCountDownTimer.cancel();
             mCountDownTimer = null;
             Intent intent= new Intent(ArmCircle_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
+
+        myInfoButton = findViewById(R.id.infobutton1);
+        myInfoButton.setOnClickListener(v -> {
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(ArmCircle_Timer.this, ArmCircleDescription.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             finish();

@@ -24,6 +24,7 @@ public class Triceps_Timer extends AppCompatActivity {
 
     ImageView img;
     ImageButton myImageHomeButton;
+    Button myInfoButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -73,6 +74,16 @@ public class Triceps_Timer extends AppCompatActivity {
             mCountDownTimer.cancel();
             mCountDownTimer = null;
             Intent intent= new Intent(Triceps_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
+
+        myInfoButton = findViewById(R.id.infobutton12);
+        myInfoButton.setOnClickListener(v -> {
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(Triceps_Timer.this, TricepsDescription.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             finish();

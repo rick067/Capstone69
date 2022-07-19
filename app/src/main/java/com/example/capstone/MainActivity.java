@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Variables
     Animation topAnim, bottomAnim;
-    ImageView image;
+    ImageView image, image2;
     TextView logo, slogan;
     DBHelper DB;
 
@@ -59,10 +59,12 @@ public class MainActivity extends AppCompatActivity {
         image = findViewById(R.id.imageView);
         logo = findViewById(R.id.textView);
         slogan = findViewById(R.id.textView2);
+        image2 =  findViewById(R.id.imageView2);
 
         image.setAnimation(topAnim);
         logo.setAnimation(bottomAnim);
         slogan.setAnimation(bottomAnim);
+        image2.setAnimation(bottomAnim);
 
         new Handler().postDelayed(new Runnable() {
             @Override

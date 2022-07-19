@@ -24,6 +24,7 @@ public class Squats_Timer extends AppCompatActivity {
 
     ImageView img;
     ImageButton myImageHomeButton;
+    Button myInfoButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -74,6 +75,16 @@ public class Squats_Timer extends AppCompatActivity {
             mCountDownTimer.cancel();
             mCountDownTimer = null;
             Intent intent= new Intent(Squats_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
+
+        myInfoButton = findViewById(R.id.infobutton11);
+        myInfoButton.setOnClickListener(v -> {
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(Squats_Timer.this, SquatsDescription.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             finish();

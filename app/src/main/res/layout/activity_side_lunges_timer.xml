@@ -45,20 +45,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SideLungesTitle" />
 
-    <TextView
-        android:id="@+id/armStretchDescription"
-        android:layout_width="336dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="5dp"
-        android:text="The side lunge is an effective lower body exercise that strengthens your quads, glutes and hamstrings while also targeting both the inner and outer thighs."
-        android:textAlignment="center"
-        android:textColor="#070707"
+    <Button
+        android:id="@+id/infobutton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:background="#119e3c"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DESCRIPTION"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.791" />
+        app:layout_constraintVertical_bias="0.625"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/startButton"

@@ -24,6 +24,7 @@ public class KneesLift_Timer extends AppCompatActivity {
 
     ImageView img;
     ImageButton myImageHomeButton;
+    Button myInfoButton;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -71,6 +72,16 @@ public class KneesLift_Timer extends AppCompatActivity {
             mCountDownTimer.cancel();
             mCountDownTimer = null;
             Intent intent= new Intent(KneesLift_Timer.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
+
+        myInfoButton = findViewById(R.id.infobutton6);
+        myInfoButton.setOnClickListener(v -> {
+            mCountDownTimer.cancel();
+            mCountDownTimer = null;
+            Intent intent= new Intent(KneesLift_Timer.this, KneesLiftDescription.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             finish();

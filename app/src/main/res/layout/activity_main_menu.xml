@@ -20,11 +20,11 @@
 
     <TextView
         android:id="@+id/MainMenu_title"
-        android:layout_width="242dp"
+        android:layout_width="251dp"
         android:layout_height="58dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/bangers"
-        android:text="Warm-Up Exercise"
+        android:text="Warm-Up Exercises"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,12 +75,12 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
-                android:text="Warm-up Exercise"
+                android:layout_marginTop="32dp"
+                android:text="Warm-up Exercises"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.472"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/sampleImage1"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="#119e3c"
-                android:text="Lists"
+                android:text="EXERCISES"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

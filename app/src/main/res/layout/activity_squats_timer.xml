@@ -47,19 +47,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SquatsTitle" />
 
-    <TextView
-        android:id="@+id/armStretchDescription"
-        android:layout_width="336dp"
-        android:layout_height="70dp"
-        android:text="Squat is a position in which you are crouched with your knees bent and the backs of your feet almost touching your butt."
-        android:textAlignment="center"
-        android:textColor="#070707"
+    <Button
+        android:id="@+id/infobutton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="245dp"
+        android:background="#119e3c"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="DESCRIPTION"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintVertical_bias="0.652"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/startButton"
