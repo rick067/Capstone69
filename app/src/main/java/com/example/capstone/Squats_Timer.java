@@ -8,6 +8,7 @@ import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.SystemClock;
 import android.support.v4.app.INotificationSideChannel;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,7 @@ public class Squats_Timer extends AppCompatActivity {
     ImageView img;
     ImageButton myImageHomeButton;
     Button myInfoButton;
+    private long mLastClickTime = 0;
     //get timer data
     DBHelper DB = new DBHelper(this);
 
@@ -106,6 +108,10 @@ public class Squats_Timer extends AppCompatActivity {
         img.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
+                if (SystemClock.elapsedRealtime() - mLastClickTime < 30000){
+                    return false;
+                }
+                mLastClickTime = SystemClock.elapsedRealtime();
                 MediaPlayer mp = MediaPlayer.create(Squats_Timer.this,R.raw.squats);
                 mp.start();
                 return false;
