@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".JoggingDescription">
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
     <ImageButton
         android:id="@+id/imagebackbutton3"
         android:layout_width="40dp"
@@ -21,7 +36,38 @@
         app:srcCompat="@drawable/backbuttonicon1"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+            <TextView
+                android:id="@+id/Steps1"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Steps: "
+                android:textColor="#0000FF"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.163" />
+
+
+            <TextView
+                android:id="@+id/StepsDesc1"
+                android:layout_width="348dp"
+                android:layout_height="211dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Stand tall with arms at your side and feet shoulder-width apart. Begin exercise by raising your left knee up toward your chest as high as you can. Repeat with the right knee and continue the movement, alternating the legs and moving at a running pace.
+"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.274" />
+
+            <TextView
         android:id="@+id/textView17"
         android:layout_width="393dp"
         android:layout_height="63dp"
@@ -36,67 +82,69 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.082" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Benefits: "
-        android:textColor="@color/buttontext"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Benefits: "
+                android:textColor="@color/buttontext"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.467" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="339dp"
-        android:layout_height="239dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="This warm up is a strength exercise that uses full body movement that helps the person
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="339dp"
+                android:layout_height="239dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="This warm up is a strength exercise that uses full body movement that helps the person
 to increase the heart rate and breathing, warms the muscles in the upper and lower body to improve
 balance and coordination and gets the body ready for other complex movements."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.682" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Risks: "
-        android:textColor="#E51A1E"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Risks: "
+                android:textColor="#E51A1E"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.813" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="336dp"
-        android:layout_height="147dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="If the person have any existing pain in the ankles, knees or hips, do not put to much stress
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="336dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="728dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="If the person have any existing pain in the ankles, knees or hips, do not put to much stress
 or effort in performing the exercise to prevent strain and injury."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

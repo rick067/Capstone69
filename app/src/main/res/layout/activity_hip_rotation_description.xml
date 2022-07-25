@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".HipRotationDescription">
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
     <ImageButton
         android:id="@+id/imagebackbutton2"
         android:layout_width="40dp"
@@ -20,6 +35,36 @@
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/backbuttonicon1"
         tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/Steps1"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Steps: "
+                android:textColor="#0000FF"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.163" />
+
+            <TextView
+                android:id="@+id/StepsDesc1"
+                android:layout_width="313dp"
+                android:layout_height="191dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Stand straight with your feet a little wider than shoulder-width apart and place your hands on the hips. Slowly rotate your hips, making big circles. Complete a set in one direction and then switch to the opposite direction.
+"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.274" />
 
     <TextView
         android:id="@+id/textView17"
@@ -36,67 +81,69 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.082" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Benefits: "
-        android:textColor="@color/buttontext"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Benefits: "
+                android:textColor="@color/buttontext"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.483" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="330dp"
-        android:layout_height="210dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Hip Rotation are a good dynamic stretching exercise. This is an excellent exercise to
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="330dp"
+                android:layout_height="210dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Hip Rotation are a good dynamic stretching exercise. This is an excellent exercise to
 increase flexibility and also relieve stress. This exercise focuses on loosening the lower backs
 and hip muscles, strengthen the core and trims the waist."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.335" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.308"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.685" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Risks: "
-        android:textColor="#E51A1E"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Risks: "
+                android:textColor="#E51A1E"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.82" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="334dp"
-        android:layout_height="141dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Performing this exercise may increase the risk of injury if the person does not perform it
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="334dp"
+                android:layout_height="141dp"
+                android:layout_marginTop="692dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Performing this exercise may increase the risk of injury if the person does not perform it
 properly. The person may experience strainig the hips and the back."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.744" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.376"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

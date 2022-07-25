@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".PushupDescription">
 
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
     <ImageButton
         android:id="@+id/imagebackbutton6"
         android:layout_width="40dp"
@@ -21,7 +36,37 @@
         app:srcCompat="@drawable/backbuttonicon1"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+            <TextView
+                android:id="@+id/Steps1"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Steps: "
+                android:textColor="#0000FF"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.154" />
+
+            <TextView
+                android:id="@+id/StepsDesc1"
+                android:layout_width="357dp"
+                android:layout_height="276dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Begin with hands placed directly under shoulders and feet slightly wider than hip-width distance apart on the floor. Legs should be balanced on toes and make sure to maintain a straight body posture from head to toe. Lower chest to touch floor and aim to go as low as you can to access your full range of motion. Push palms into the floor and extend arms to press body back up to start position.
+"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.274" />
+
+            <TextView
         android:id="@+id/textView17"
         android:layout_width="393dp"
         android:layout_height="63dp"
@@ -36,67 +81,71 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.082" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Benefits: "
-        android:textColor="@color/buttontext"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Benefits: "
+                android:textColor="@color/buttontext"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.507" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="352dp"
-        android:layout_height="202dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Benefits:Pushups are beneficial for building strength throughout the body. It mainly focuses
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="345dp"
+                android:layout_height="184dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Pushups are beneficial for building strength throughout the body. It mainly focuses
 in the arms, shoulders, legs and its core. It helps to increase support to the joints and
 strengthening muscles around shoulders."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.661" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Risks: "
-        android:textColor="#E51A1E"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Risks: "
+                android:textColor="#E51A1E"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.766" />
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="347dp"
-        android:layout_height="209dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Pushups increases the risk of certain injuries due to improper technique. The person
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="347dp"
+                android:layout_height="209dp"
+                android:layout_marginTop="732dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Pushups increases the risk of certain injuries due to improper technique. The person
 may experience back pain especially if you have existing back conditions. Pain in the wrist may also
 occur and an injury to the elbow due to the speed of performing pushups."
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.856" />
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

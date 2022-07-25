@@ -73,7 +73,7 @@ public class JumpingJacks_Timer extends AppCompatActivity {
         myImageHomeButton.setOnClickListener(v -> {
             mCountDownTimer.cancel();
             mCountDownTimer = null;
-            Intent intent= new Intent(JumpingJacks_Timer.this, MainMenu.class);
+            Intent intent= new Intent(JumpingJacks_Timer.this, ExerciseList.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             finish();

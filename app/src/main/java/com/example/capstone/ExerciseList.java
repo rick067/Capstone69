@@ -11,13 +11,21 @@ import android.widget.ImageButton;
 
 public class ExerciseList extends AppCompatActivity {
 
-    ImageButton myImageButton, myImageButton1, myImageButton2, myImageButton3, myImageButton4, myImageButton5, myImageButton6, myImageButton7, myImageButton8, myImageButton9, myImageButton10, myImageButton11;
+    ImageButton myImageButton, myImageButton1, myImageButton2, myImageButton3, myImageButton4, myImageButton5, myImageButton6, myImageButton7, myImageButton8, myImageButton9, myImageButton10, myImageButton11, myImageBackgroundButtonList;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise_list);
+
+        myImageBackgroundButtonList = findViewById(R.id.imagebackbuttonlist);
+        myImageBackgroundButtonList.setOnClickListener(v -> {
+            Intent intent= new Intent(ExerciseList.this, MainMenu.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        });
 
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
