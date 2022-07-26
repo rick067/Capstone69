@@ -53,8 +53,8 @@
 
             <TextView
                 android:id="@+id/StepsDesc1"
-                android:layout_width="313dp"
-                android:layout_height="191dp"
+                android:layout_width="330dp"
+                android:layout_height="198dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="Stand straight with your feet a little wider than shoulder-width apart and place your hands on the hips. Slowly rotate your hips, making big circles. Complete a set in one direction and then switch to the opposite direction.
 "
@@ -101,9 +101,7 @@
                 android:layout_width="330dp"
                 android:layout_height="210dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Hip Rotation are a good dynamic stretching exercise. This is an excellent exercise to
-increase flexibility and also relieve stress. This exercise focuses on loosening the lower backs
-and hip muscles, strengthen the core and trims the waist."
+                android:text="Hip Rotation is a good dynamic stretching exercise. This is an excellent exercise to increase flexibility and also relieve stress. This exercise focuses on loosening the lower back and hip muscles, strengthening the core, and trimming the waist."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,8 +132,7 @@ and hip muscles, strengthen the core and trims the waist."
                 android:layout_height="141dp"
                 android:layout_marginTop="692dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Performing this exercise may increase the risk of injury if the person does not perform it
-properly. The person may experience strainig the hips and the back."
+                android:text="Performing this exercise may increase the risk of injury if the person does not perform it properly. The person may experience straining the hips and the back."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -56,7 +56,7 @@
                 android:layout_width="331dp"
                 android:layout_height="213dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Put your hands directly under shoulders like you’re about to do a push-up. Ground toes into the floor and squeeze glutes to stabilize your body. Your legs should be working too. Hold the position for seconds as long as possible and you’re comfortable.
+                android:text="Put your hands directly under your shoulders like you’re about to do push-ups. Ground toes into the floor and squeeze glutes to stabilize your body. Your legs should be working too. Hold the position for seconds as long as possible and you’re comfortable.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -101,9 +101,7 @@
                 android:layout_width="339dp"
                 android:layout_height="239dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Planking involves holding the body off the ground in a straight line. The mainly focused
-of planks is to have strong core muslces that strengthens the abdominal muscles, Reducing back pain,
-enhancing the balance and flexibility of the person, endurance and for better posture."
+                android:text="Planking involves holding the body off the ground in a straight line. They mainly focused on planks to have strong core muscles that strengthen the abdominal muscles, Reduce back pain, enhance the balance and flexibility of the person, endurance, and for better posture."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,9 +132,7 @@ enhancing the balance and flexibility of the person, endurance and for better po
                 android:layout_height="183dp"
                 android:layout_marginTop="676dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This warm up may increase the risk of injury without proper form. Head Alignment,
-shoulder form and not breathing during this exercise are the example. The person also should not
-take this warm up for too long to avoid straining the back."
+                android:text="This warm-up may increase the risk of injury without proper form. Head alignment, shoulder form, and not breathing during this exercise are an example. The person also should not take this warm-up for too long to avoid straining the back."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

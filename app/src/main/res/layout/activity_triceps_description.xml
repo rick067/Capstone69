@@ -49,37 +49,38 @@
                 app:layout_constraintHorizontal_bias="0.064"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.173" />
+                app:layout_constraintVertical_bias="0.161" />
 
             <TextView
                 android:id="@+id/StepsDesc1"
-                android:layout_width="363dp"
-                android:layout_height="166dp"
+                android:layout_width="337dp"
+                android:layout_height="170dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Bring one arm across your body and hold it straight. Grasp the elbow with the other arm and gently pull toward your chest. Hold it until your set is finished and repeat on the other side.
+                android:text="Bring one arm across your body and hold it straight. Grasp the elbow with the other arm and gently pull it toward your chest. Hold it until your set is finished and repeat on the other side.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.267" />
+                app:layout_constraintVertical_bias="0.253" />
 
             <TextView
-        android:id="@+id/textView17"
-        android:layout_width="393dp"
-        android:layout_height="63dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Triceps Warm-up"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+                android:id="@+id/textView17"
+                android:layout_width="378dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Triceps Warm-up"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="38sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.082" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -101,10 +102,7 @@
                 android:layout_width="355dp"
                 android:layout_height="221dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Triceps warm up is an excellent stretch for the muscles in the shoulder. This warm up
-helps relieveing the tension in the shoulders, increase the ability to move the shoulders,
-it can also reduce the pain and risk of injury to the shoulder and improve the posture of the
-person."
+                android:text="Triceps warm-up is an excellent stretch for the muscles in the shoulder. This warm-up helps relieve the tension in the shoulders, and increase the ability to move the shoulders, it can also reduce the pain and risk of injury to the shoulder and improve the posture of the person."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,7 +132,7 @@ person."
                 android:layout_height="209dp"
                 android:layout_marginTop="672dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Too much effort in performing this warm up may increase the risk of straining the shoulder and putting stress to the neck "
+                android:text="Too much effort in performing this warm-up may increase the risk of straining the shoulder and putting stress on the neck."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

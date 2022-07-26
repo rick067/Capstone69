@@ -56,9 +56,7 @@
                 android:layout_width="313dp"
                 android:layout_height="191dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Stand straight and take your left foot and right foot hip distance apart and your toes pointed forward.
-Lift up the heel and pivot your left leg and place your left arm across the chest and bring it back.
-Repeat it on the other side.
+                android:text="Stand straight and take your left foot and right foot hip distance apart and your toes pointed forward. Lift the heel and pivot your left leg and place your left arm across the chest and bring it back. Repeat it on the other side.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -103,9 +101,7 @@ Repeat it on the other side.
                 android:layout_width="330dp"
                 android:layout_height="198dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This warm up is a simple to do exercise and can do it anywhere. This exercise helps
-stretching the arm and shoulders especially to the upper and lower back. This also helps the hip
-move as well as the legs."
+                android:text="This warm-up is a simple to-do exercise and can do it anywhere. This exercise helps stretch the arm and shoulders, especially to the upper and lower back. This also helps the hip move as well as the legs."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -136,9 +132,7 @@ move as well as the legs."
                 android:layout_height="192dp"
                 android:layout_marginTop="676dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="The person who perform this warm up with improper technique increases the risk of strain
-in the shoulders. This warm up should not be performed with speed and should not be performed
-for too long."
+                android:text="The person who performs this warm-up with improper technique increases the risk of strain on the shoulders. This warm-up should not be performed with speed and should not be performed for too long."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -57,7 +57,7 @@
                 android:layout_width="348dp"
                 android:layout_height="211dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Stand tall with arms at your side and feet shoulder-width apart. Begin exercise by raising your left knee up toward your chest as high as you can. Repeat with the right knee and continue the movement, alternating the legs and moving at a running pace.
+                android:text="Stand tall with arms at your side and feet shoulder-width apart. Begin the exercise by raising your left knee toward your chest as high as you can. Repeat with the right knee and continue the movement, alternating the legs and moving at a running pace.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -102,9 +102,7 @@
                 android:layout_width="339dp"
                 android:layout_height="239dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This warm up is a strength exercise that uses full body movement that helps the person
-to increase the heart rate and breathing, warms the muscles in the upper and lower body to improve
-balance and coordination and gets the body ready for other complex movements."
+                android:text="This warm-up is a strength exercise that uses full body movement that helps the person to increase the heart rate and breathing, warms the muscles in the upper and lower body to improve balance and coordination, and gets the body ready for other complex movements."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,8 +132,7 @@ balance and coordination and gets the body ready for other complex movements."
                 android:layout_height="147dp"
                 android:layout_marginTop="728dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="If the person have any existing pain in the ankles, knees or hips, do not put to much stress
-or effort in performing the exercise to prevent strain and injury."
+                android:text="If the person has any existing pain in the ankles, knees, or hips, do not put too much stress or effort into performing the exercise to prevent strain and injury."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

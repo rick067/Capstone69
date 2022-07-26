@@ -56,7 +56,8 @@
                 android:layout_width="357dp"
                 android:layout_height="276dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Begin with hands placed directly under shoulders and feet slightly wider than hip-width distance apart on the floor. Legs should be balanced on toes and make sure to maintain a straight body posture from head to toe. Lower chest to touch floor and aim to go as low as you can to access your full range of motion. Push palms into the floor and extend arms to press body back up to start position.
+                android:text="Begin with hands placed directly under shoulders and feet slightly wider than hip-width distance apart on the floor. Legs should be balanced on the toes and make sure to maintain a straight body posture from head to toe. Lower chest to touch the floor and aim to go as low as you can to access your full range of motion. Push palms into the floor and extend arms to press body back up to start position.
+
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -101,9 +102,7 @@
                 android:layout_width="345dp"
                 android:layout_height="184dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Pushups are beneficial for building strength throughout the body. It mainly focuses
-in the arms, shoulders, legs and its core. It helps to increase support to the joints and
-strengthening muscles around shoulders."
+                android:text="Pushups are beneficial for building strength throughout the body. It mainly focuses on the arms, shoulders, legs, and core. It helps to increase support to the joints and strengthen muscles around the shoulders."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,9 +133,8 @@ strengthening muscles around shoulders."
                 android:layout_height="209dp"
                 android:layout_marginTop="732dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Pushups increases the risk of certain injuries due to improper technique. The person
-may experience back pain especially if you have existing back conditions. Pain in the wrist may also
-occur and an injury to the elbow due to the speed of performing pushups."
+                android:text="Pushups increase the risk of certain injuries due to improper technique. The person may experience back pain especially if you have existing back conditions. Pain in the wrist may also occur and an injury to the elbow due to the speed of performing pushups.
+"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

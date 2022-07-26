@@ -71,7 +71,7 @@
         android:layout_width="393dp"
         android:layout_height="63dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Squats"
+        android:text="Squat"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="40sp"
@@ -101,10 +101,7 @@
                 android:layout_width="362dp"
                 android:layout_height="233dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This warm up is a dynamic strength exercise that includes several muscles in the upper
-and lower body to work together at the same time. This warm up helps to strengthen the core and
-muscles in the lower body, It also helps reduce risk of injury and performing this exercise can
-be done anywhere."
+                android:text="This warm-up is a dynamic strength exercise that includes several muscles in the upper and lower body working together at the same time. This warm-up helps to strengthen the core and muscles in the lower body, It also helps reduce the risk of injury, and performing this exercise can be done anywhere."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -135,8 +132,7 @@ be done anywhere."
                 android:layout_height="209dp"
                 android:layout_marginTop="712dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="The person who perform this exercise without proper posture my experience strain or injury
-expecially to the knees and lower back. "
+                android:text="The person who performs this exercise without proper posture may experience strain or injury, especially to the knees and lower back. "
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -53,10 +53,10 @@
 
             <TextView
                 android:id="@+id/StepsDesc1"
-                android:layout_width="346dp"
-                android:layout_height="237dp"
+                android:layout_width="350dp"
+                android:layout_height="245dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Start standing up with your legs together, slightly bend the knees, and hands resting on thighs. Keeping the knees bent, open the arms and legs out to the sides. The arms should come above the head and legs wider than shoulders. Close your arms and legs back to your sides, returning to your starting position.
+                android:text="Start standing up with your legs together, slightly bend the knees, and hands resting on your thighs. Keeping the knees bent, open the arms and legs out to the sides. The arms should come above the head and legs wider than the shoulders. Close your arms and legs back to your sides, returning to your starting position.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -94,17 +94,14 @@
                 app:layout_constraintHorizontal_bias="0.064"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.51" />
+                app:layout_constraintVertical_bias="0.515" />
 
             <TextView
                 android:id="@+id/textView19"
-                android:layout_width="339dp"
-                android:layout_height="239dp"
+                android:layout_width="351dp"
+                android:layout_height="228dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This warm up is a full body exercise that you can perform anywhere. Jumping jacks are a
-plyometric exercise that helps to increase the person's speed and power. This exercise can improve
-heart health of the person by boosting its heart rate. This exercise also strengthen the bones
-in their legs and spine."
+                android:text="This warm-up is a full-body exercise that you can perform anywhere. Jumping jacks are a plyometric exercise that helps to increase a person's speed and power. This exercise can improve the heart health of the person by boosting their heart rate. This exercise also strengthens the bones in their legs and spine."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -135,8 +132,7 @@ in their legs and spine."
                 android:layout_height="147dp"
                 android:layout_marginTop="728dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Performing this warm up may increase the risk of injury due to improper form. Also, if the
-person have any existing pain and injury in joints or muscles."
+                android:text="Performing this warm-up may increase the risk of injury due to improper form. Also, if the person has any existing pain and injury in joints or muscles."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

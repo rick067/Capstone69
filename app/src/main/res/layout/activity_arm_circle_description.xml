@@ -53,8 +53,8 @@
 
             <TextView
                 android:id="@+id/StepsDesc1"
-                android:layout_width="313dp"
-                android:layout_height="191dp"
+                android:layout_width="335dp"
+                android:layout_height="180dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="Stand straight, raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward, making big circles. Complete a set in one direction and then switch to rotating backward.
 "
@@ -101,9 +101,7 @@
                 android:layout_width="339dp"
                 android:layout_height="239dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Arm circles are an example of dynamic stretching that allows the muscles and joints to
-fully extend the range of the motion. This exercise mainly focuses in the shoulder muscles that
-helps the blood to move in the arm muscles especially in the biceps and triceps."
+                android:text="Arm circle is an example of dynamic stretching that allows the muscles and joints to fully extend the range of motion. This exercise mainly focuses on the shoulder muscles that help the blood to move in the arm muscles, especially in the biceps and triceps."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,8 +132,8 @@ helps the blood to move in the arm muscles especially in the biceps and triceps.
                 android:layout_height="147dp"
                 android:layout_marginTop="692dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Even though this exercise is simple and can be done anywhere, possible muscle injury in shoulders
-may occur as you perform this exercise for too much."
+                android:text="Even though this exercise is simple and can be done anywhere, possible muscle injury in the shoulders may occur as you perform this exercise for too much.
+"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

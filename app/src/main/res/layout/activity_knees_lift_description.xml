@@ -56,7 +56,7 @@
                 android:layout_width="333dp"
                 android:layout_height="176dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Stand tall with arms at your side and feet shoulder-width apart. Lift your left knee to your chest and hold it using your both hands. Repeat the exercise with your right knee until the set is finished.
+                android:text="Stand tall with arms at your side and feet shoulder-width apart. Lift your left knee to your chest and hold it using both hands. Repeat the exercise with your right knee until the set is finished.
 "
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -101,9 +101,7 @@
                 android:layout_width="337dp"
                 android:layout_height="209dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This exercise helps the body warm up especially the lower body. It focuses on improving
-the indurance, balance, and coordination of the muscles. It also helps the core muscles that can
-improve the body posture of the person."
+                android:text="This exercise helps the body warm up, especially the lower body. It focuses on improving the endurance, balance, and coordination of the muscles. It also helps the core muscles that can improve the body posture of the person."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -133,8 +131,7 @@ improve the body posture of the person."
                 android:layout_height="147dp"
                 android:layout_marginTop="676dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Performing this warm up increases the risk of injury due to improper technique.
-The person should not hold the legs for too long to avoid strain in the thighs."
+                android:text="Performing this warm-up increases the risk of injury due to improper technique. The person should not hold the legs for too long to avoid strain on the thighs."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

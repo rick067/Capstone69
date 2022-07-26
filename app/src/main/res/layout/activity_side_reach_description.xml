@@ -101,9 +101,7 @@
                 android:layout_width="352dp"
                 android:layout_height="202dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Side reach is a simple and easy to do anywhere exercise. A person can do this while
-standing or sitting. This exercise can also be performed gently or intensed. This warm up helps
-stretching the upper and lower back and core muscles. This also relieves tension in the neck."
+                android:text="Side reach is simple and easy to do anywhere exercise. A person can do this while standing or sitting. This exercise can also be performed gently or intensely. This warm-up helps stretch the upper and lower back and core muscles. This also relieves tension in the neck."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -134,8 +132,7 @@ stretching the upper and lower back and core muscles. This also relieves tension
                 android:layout_height="209dp"
                 android:layout_marginTop="744dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Performing this warm up may increase the risk of an injury if its performed incorrectly.
-The person should have control to the body to prevent straining the back and the neck."
+                android:text="Performing this warm-up may increase the risk of an injury if it's performed incorrectly. The person should have control of the body to prevent straining the back and the neck."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"

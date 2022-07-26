@@ -102,9 +102,7 @@
                 android:layout_width="352dp"
                 android:layout_height="202dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Side lunges are a lower-body exercise. It mainly focuses the large group of muscles in the
-legs. Perfroming this exercise can help improve the balance and stability of a person especially in
-the knees and ankles to prevent from falling."
+                android:text="Side lunges are a lower-body exercise. It mainly focuses on the large group of muscles in the legs. Performing this exercise can help improve the balance and stability of a person especially in the knees and ankles to prevent from falling."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -135,8 +133,7 @@ the knees and ankles to prevent from falling."
                 android:layout_height="209dp"
                 android:layout_marginTop="712dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="This exercise may increase the risk of injury by performing it with improper form. The person
-may experience strain in knees, thighs, and ankles."
+                android:text="This exercise may increase the risk of injury by performing with improper form. The person may experience strain in the knees, thighs, and ankles."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
