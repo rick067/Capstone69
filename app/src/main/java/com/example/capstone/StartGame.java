@@ -53,16 +53,16 @@ public class StartGame extends AppCompatActivity {
         techlist.add("Arm Reach");
         techlist.add("Jumping Jacks");
         techlist.add("Knees Lift");
-        map.put(techlist.get(0), R.drawable.quizplanking);
-        map.put(techlist.get(1), R.drawable.quizpushups);
-        map.put(techlist.get(2), R.drawable.quizlunges);
-        map.put(techlist.get(3), R.drawable.quizsidereach);
-        map.put(techlist.get(4), R.drawable.quizsquat);
-        map.put(techlist.get(5), R.drawable.quiztriceps);
-        map.put(techlist.get(6), R.drawable.quizarmcircle);
-        map.put(techlist.get(7), R.drawable.quizsarmreach);
-        map.put(techlist.get(8), R.drawable.quizjumpingjacks);
-        map.put(techlist.get(9), R.drawable.quizkneeslift);
+        map.put(techlist.get(0), R.drawable.planksgif);
+        map.put(techlist.get(1), R.drawable.pushupgif);
+        map.put(techlist.get(2), R.drawable.sidelungesgif);
+        map.put(techlist.get(3), R.drawable.sidereachgif);
+        map.put(techlist.get(4), R.drawable.squatsgif);
+        map.put(techlist.get(5), R.drawable.tricepsgif);
+        map.put(techlist.get(6), R.drawable.armcirclesgif);
+        map.put(techlist.get(7), R.drawable.armreachgif);
+        map.put(techlist.get(8), R.drawable.jumpingjacksgif);
+        map.put(techlist.get(9), R.drawable.kneesliftgif);
         Collections.shuffle(techlist);
         millisUntilFinished = 1000;
         points = 0;
@@ -71,7 +71,7 @@ public class StartGame extends AppCompatActivity {
     }
 
     private void startGame() {
-        millisUntilFinished = 10000;
+        millisUntilFinished = 15000;
         tvTimer.setText("" +(millisUntilFinished / 1000) + "s");
         tvPoints.setText(points + " / " + techlist.size());
         generateQuestions(index);
@@ -148,9 +148,9 @@ public class StartGame extends AppCompatActivity {
         if (answer.equals(correctAnswer)) {
             points++;
             tvPoints.setText(points + " / " + techlist.size());
-            tvResult.setText("Correct");
+            tvResult.setText(" ");
         } else {
-            tvResult.setText("Wrong");
+            tvResult.setText(" ");
 
         }
     }

@@ -13,13 +13,17 @@ import com.example.capstone.StartGame;
 
 public class GameOver extends AppCompatActivity {
 
-    TextView tvPoints;
+
     SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_over);
+
+        TextView tvPoints;
+        TextView texthighscore = findViewById(R.id.texthighscore);
+
         int points = getIntent().getExtras().getInt("points");
         tvPoints = findViewById(R.id.tvPoints);
         tvPoints.setText("" + points);
@@ -34,7 +38,20 @@ public class GameOver extends AppCompatActivity {
 
 
 
+        int highscore = sharedPreferences.getInt("highscore",0);
+        if(highscore>=points)
+            texthighscore.setText(""+highscore);
+        else
+        {
+            texthighscore.setText(""+points);
+            editor.putInt("highscore", points);
+            editor.commit();
+        }
+
+
     }
+
+
 
     public void restart(View view) {
         Intent intent = new Intent(GameOver.this, StartGame.class);
