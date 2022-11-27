@@ -50,7 +50,7 @@
                 app:layout_constraintHorizontal_bias="0.476"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/group_4" />
+                app:srcCompat="@drawable/planksgui" />
 
             <ImageButton
                 android:id="@+id/pushupIcon"
@@ -64,7 +64,7 @@
                 app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/planksIcon"
-                app:srcCompat="@drawable/group_5" />
+                app:srcCompat="@drawable/pushupsgui1" />
 
             <ImageButton
                 android:id="@+id/tricepsIcon"
@@ -78,7 +78,7 @@
                 app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/pushupIcon"
-                app:srcCompat="@drawable/group_16" />
+                app:srcCompat="@drawable/tricepswarmupgui1" />
 
             <ImageButton
                 android:id="@+id/squatIcon"
@@ -92,7 +92,7 @@
                 app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tricepsIcon"
-                app:srcCompat="@drawable/group_8" />
+                app:srcCompat="@drawable/squatsgui" />
 
             <ImageButton
                 android:id="@+id/sidereachIcon"
@@ -106,7 +106,7 @@
                 app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/squatIcon"
-                app:srcCompat="@drawable/group_7" />
+                app:srcCompat="@drawable/sidereachgui" />
 
             <ImageButton
                 android:id="@+id/sidelungesIcon"
@@ -120,7 +120,7 @@
                 app:layout_constraintHorizontal_bias="0.476"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sidereachIcon"
-                app:srcCompat="@drawable/group_6" />
+                app:srcCompat="@drawable/sidelungesgui" />
 
             <ImageButton
                 android:id="@+id/ArmReachIcon"
@@ -134,7 +134,7 @@
                 app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sidelungesIcon"
-                app:srcCompat="@drawable/group_11" />
+                app:srcCompat="@drawable/armreachgui" />
 
             <ImageButton
                 android:id="@+id/HipRotationIcon"
@@ -150,7 +150,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ArmReachIcon"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group_12" />
+                app:srcCompat="@drawable/hiprotationgui" />
 
             <ImageButton
                 android:id="@+id/JumpingJacksIcon"
@@ -166,7 +166,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/HipRotationIcon"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group_14" />
+                app:srcCompat="@drawable/jumpingjacksgui" />
 
             <ImageButton
                 android:id="@+id/JoggingLegLiftsIcon"
@@ -182,7 +182,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/JumpingJacksIcon"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group_17" />
+                app:srcCompat="@drawable/jogginggui1" />
 
             <ImageButton
                 android:id="@+id/ArmCircleIcon"
@@ -198,7 +198,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/JoggingLegLiftsIcon"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group_10" />
+                app:srcCompat="@drawable/armcirclegui" />
 
             <ImageButton
                 android:id="@+id/KneesLiftIcon"
@@ -214,7 +214,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ArmCircleIcon"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/group_15" />
+                app:srcCompat="@drawable/kneesliftgui" />
 
 
 
